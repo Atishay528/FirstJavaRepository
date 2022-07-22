@@ -1,0 +1,750 @@
+**********************************************************HANDSON*********************************************************************************
+
+
+________________________________________________________________________________________________________________________________________
+*********************************************************Date 13 July 2022***********************************************************
+________________________________________________________________________________________________________________________________________
+
+1) Write a program to check if a given integer number is Positive, Negative, or Zero.
+
+2) Write a program to check if a given integer number is odd or even.
+
+3) Initialize two character variables in a program and display the characters in alphabetical order.
+
+Example1) if the first character is 's' and second character is 'e' then the output should be e,s
+
+Example2) if the first character is 'a' and second character is 'e', then the output should be a,e
+
+4) Initialize a character variable in a program and
+
+print 'Alphabhet' if the initialized value is an alphabhet,
+
+print 'Digit' if the initialized value is a number, and
+
+print 'Special Character', if the initialized value is anything else.
+
+
+5) Write a program to accept gender ("Male" or "Female") and age from the key board and print the percentage of interest based on the given conditions.
+
+If the gender is 'Female' and age is between 1 and 58, the percentage of interest is 8.2%.
+
+If the gender is 'Female' and age is between 59 and 100, the percentage of interest is 9.2%.
+
+If the gender is 'Male' and age is between 1 and 58, the percentage of interest is 8.4%.
+
+If the gender is 'Male' and age is between 59 and 100, the percentage of interest is 10.5%.
+
+6) Initialize a character variable with an alphabhet in a program.
+
+If the character value is in lowercase, the output should be displayed in uppercase in the following format.
+
+Example1)
+
+i/p:a
+
+o/p:a->A
+
+If the character value is in uppercase, the output should be displayed in lowercase in the following format.
+
+Example2)
+
+i/p:A
+
+o/p:A->a
+
+7) Write a program to receive a color code from the user (an Alphabhet).
+
+The program should then print the color name, based on the color code given.
+
+The following are the color codes and their corresponding color names.
+
+R->Red, B->Blue, G->Green, O->Orange, Y->Yellow, W->White.
+
+If color code provided by the user is not valid then print "Invalid Code".
+
+8) Write a program to receive a number and print the corresponding month name.
+
+
+
+
+****************************************************************************************************************************************************
+__________________________________________________________________________________________________________________________________________________
+****************************************************************Date 14 July 2022**************************************************************
+____________________________________________________________________________________________________________________________________________________
+
+
+
+
+1) Write a program to print numbers from 1 to 10 in a single row with one tab space.
+
+2) Write a program to print even numbers between 23 and 57.
+
+  Each number should be printed in a separate row.
+
+3) Write a program to check if a given number is prime or not.
+
+4) Write a program to print prime numbers between 10 and 99.
+
+6) Write a program to print the sum of all the digits of a given number.
+
+Example1)
+
+I/P:1234
+
+O/P:10
+
+7) Write a program to print * in Floyds format (using for and while loop)
+
+*
+
+* *
+
+* * *
+
+Example1)
+
+I/P: 3
+
+O/P :
+
+*
+
+* *
+
+* * *
+
+8) Write a program to reverse a given number and print
+
+Example1)
+
+I/P: 1234
+
+O/P:4321
+
+Example2)
+
+I/P:1004
+
+O/P:4001
+
+9) Write a Java program to find if the given number is palindrome or not
+
+Example1)
+
+I/P: 110011
+
+O/P: 110011 is a palindrome
+
+Example2)
+
+I/P: 1234
+
+O/P: 1234 is not a palindrome
+
+10) Write a program to print first 5 values which are divisible by 2, 3, and 5.
+
+
+Array Handson
+______________________________________________________
+
+1)Write a program to initialize an integer array and print the sum and average of the array.
+2)Write a program to initialize an integer array and find the maximum and minimum value of the array.
+
+3)Write a program to initialize an integer array with values and check if a given number is present in the array or not.
+
+If the number is not found, it will print -1 else it will print the index value of the given number in the array.
+
+Example 1) If the Array elements are {1,4,34,56,7} and the search element is 90, then the output expected is -1.
+
+Example 2)If the Array elements are {1,4,34,56,7} and the search element is 56, then the output expected is 3.
+4) Initialize an integer array with ascii values and print the corresponding character values in a single row.
+
+5)Write a program to find the largest 2 numbers and the smallest 2 numbers in the given array.
+
+6) Write a program to initialize an array and print them in a sorted order.
+
+****************************************************************************************************************************************************
+__________________________________________________________________________________________________________________________________________________
+****************************************************************Date 15 July 2022**************************************************************
+____________________________________________________________________________________________________________________________________________________
+1) Create a class Box that uses a parameterized constructor to initialize the dimensions of a box.The dimensions of the Box are width, height, depth. The class should have a method that can return the volume of the box. Create an object of the Box class and test the functionalities.
+
+
+
+2) Create a new class called Calculator with the following methods:
+
+1. A static method called powerInt(int num1,int num2)
+
+This method should return num1 to the power num2.
+
+2. A static method called powerDouble(double num1,int num2).
+
+This method should return num1 to the power num2.
+
+3. Invoke both the methods and test the functionalities.
+
+Hint: Use Math.pow(double,double) to calculate the power.
+
+
+
+3) Design a class that can be used by a health care professional to keep track of a patient’s vital statistics. The following are the details.
+
+Name of the class - Patient
+
+Member Variables - patientName(String),height(double),weight(double)
+
+Member Function - double computeBMI()
+
+The above method should compute the BMI and return the result. The formula for computation of BMI is weight (in kg) ÷ height*height(in metres).
+
+Create an object of the Patient class and check the results.
+
+4)Create a class named ‘Animal’ which includes methods like eat() and sleep().
+
+Create a child class of Animal named ‘Bird’ and override the parent class methods. Add a new method named fly().
+
+Create an instance of Animal class and invoke the eat and sleep methods using this object.
+
+Create an instance of Bird class and invoke the eat, sleep and fly methods using this object.
+
+5) Create a class called Person with a member variable name. Save it in a file called Person.java
+
+Create a class called Employee that will inherit the Person class.
+
+The other data members of the Employee class are annual salary (double), the year the employee started to work,
+
+and the national insurance number which is a String.Save this in a file called Employee.java
+
+Your class should have the necessary constructors and getter/setter methods.
+
+Write another class called TestEmployee, containing a main method to fully test your class definition.
+
+6) Create a base class Fruit with name ,taste and size as its attributes.
+
+Create a method called eat() which describes the name of the fruit and its taste.
+
+Inherit the same in 2 other classes Apple and Orange and override the eat() method to represent each fruit taste.
+
+7) Create a school application with a class called Person. Create name and dateOfBirth as member variables.
+
+Create a class called Teacher that inherits from the Person class. The teacher will have additional properties like salary, and the subject that the teacher teaches.
+
+Create a class called Student that inherits from Person class. This class will have a member variable called studentId.
+
+Create a class called College Student that inherits from Student class. This class will have collegeName, the year in which the student is studying (first/second/third/fourth) etc.
+
+Create objects of each of this classes, invoke and test the methods that are available in these classes.
+
+
+****************************************************************************************************************************************************
+__________________________________________________________________________________________________________________________________________________
+****************************************************************Date 18 July 2022**************************************************************
+____________________________________________________________________________________________________________________________________________________
+
+
+
+
+1) Write a Program to check whether a given String is Palindrome or not.
+
+2) Write a java program that will concatenate 2 strings and return the result.
+
+The result should be in lowercase.
+
+Note:If the concatenation creates a double-char, then one of the characters need to be omitted.
+
+Example1)
+
+i/p:Sachin,Tendulkar
+
+o/p:sachin tendulkar
+
+Example2)
+
+i/p:Mark,kate
+
+o/p:markate
+
+3) Given a string, return a new string made of 'n' copies of the first 2 chars of the original string
+
+where 'n' is the length of the string.
+
+Example1)
+
+i/p:Hello
+
+o/p:HeHeHeHeHe
+
+4) Write a java program that will return the first half of the string, if the length of the string is even.
+
+It should return null for odd length string.
+
+Example1)
+
+i/p:TomCat
+
+o/p:Tom
+
+Example2)
+
+i/p:Apron
+
+o/p:null
+
+
+5)Write a java program that accepts a string and returns a new string without the first and last character of the input string.
+
+Example1)
+
+i/p:Suman
+
+o/p:um
+
+a
+
+6) Given 2 strings, a and b, return a new string of the form short+long+short, with the shorter string on the outside and the longer string on the inside.
+
+The strings will not be the same length, but they may be empty (length 0).
+
+If input is "hi" and "hello", then output will be "hihellohi"
+
+.
+
+7) Given a string, if the first or last chars are 'x', return the string without those 'x' chars, otherwise return the string unchanged.
+
+If the input is "xHix", then output is "Hi".
+
+If the input is "America", then the output is "America"
+
+.
+
+8) Write a Java program that accepts a string (with * in it). The program should return a new string in which the following characters are removed-*,the characters that are to the left and right of *
+
+Example1)
+
+i/p:ab*cd
+
+o/p:ad
+
+****************************************************************************************************************************************************
+__________________________________________________________________________________________________________________________________________________
+****************************************************************Date 19 July 2022**************************************************************
+____________________________________________________________________________________________________________________________________________________
+
+
+
+9) Given two strings, a and b, print a new string which is made of the following combination-first character of a, the first character of b, second character of a, second character of b and so on.
+
+Any characters left, will go to the end of the result.
+
+Example1)
+
+i/p:Hello,World
+
+o/p:HWeolrllod
+
+10)Given a string and an integer n, print a new string made of n repetitions of the last n characters of the string.
+
+You may assume that n is between 0 and the length of the string, inclusive.
+
+Example1)
+
+i/p:Hello,3
+
+o/p:llollollo
+
+11)Given two strings a and b, return a new string, following the rules given below.
+
+If string b occurs in string a, then the new string should concatenate the characters that appear before and after of String b.
+
+Ignore cases where there is no character before or after the word, and a character may be included twice if it is in between two string b's.
+
+Example1)
+
+i/p:abcXY123XYijk,XY
+
+o/p:c13i
+
+Example2)
+
+i/p:XY123XY,XY
+
+o/p:13
+
+Example3)
+
+i/p:XY1XY,XY
+
+o/p:11
+
+
+
+
+
+1)Create a class called GeneralBank that acts as base class for all banks. This class has getSavingsInterestRate and
+
+getFixedDepositInterestRate methods, which returns the savings account interest rate and fixed deposit account interest rate
+
+that the specific bank gives. Since GeneralBank cannot say what percentage which bank would give, make these methods abstract.
+
+Create two subclasses of GeneralBank called ICICIBank and KotMBank. Override the inherited methods from the base class.
+
+The following are the interest rates of these banks.
+
+ICICIBank - Savings 4% Fixed 8.5% and
+
+KotMBank - Savings 6% Fixed 9%.
+
+Create a main method to test the above classes and their methods. Try one by one and observe your findings
+
+a) ICICIBank i=new ICICIBank();
+
+b) KotMBank k=new KotMBank();
+
+c) GeneralBank g=new KotMBank();
+
+d) GeneralBank g=new ICICIBank();
+
+
+
+
+2) Create an abstract class Compartment to represent a rail coach. Provide an abstract function notice in this class.
+
+
+
+public abstract String notice();
+
+Derive FirstClass, Ladies, General, Luggage classes from the compartment class. Override the notice function in each of them to print notice message that is suitable to the specific type of compartment.
+
+Create a class TestCompartment.Write main function to do the following:
+
+Declare an array of Compartment of size 10.
+
+Create a compartment of a type as decided by a randomly generated integer in the range 1 to 4.
+
+Check the polymorphic behavior of the notice method.
+
+[i.e based on the random number genererated, the first compartment can be Luggage, the second one could be Ladies and so on..]
+
+
+
+
+
+
+
+3. Create an abstract class Instrument which is having the abstract function play.
+
+Create three more sub classes from Instrument which is Piano, Flute, Guitar. Override the play method inside all three classes printing a message
+
+“Piano is playing tan tan tan tan ” for Piano class
+
+“Flute is playing toot toot toot toot” for Flute class
+
+“Guitar is playing tin tin tin ” for Guitar class
+
+Create an array of 10 Instruments.
+
+Assign different type of instrument to Instrument reference.
+
+Check for the polymorphic behavior of play method.
+
+Use the instanceof operator to print which object is stored at which index of instrument array.
+
+
+****************************************************************************************************************************************************
+__________________________________________________________________________________________________________________________________________________
+****************************************************************Date 20 July 2022**************************************************************
+____________________________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________
+Exception handeling
+_____________________________________________________________________________________
+
+1) Get an input String from user and parse it to integer, if it is not a number it will throw number format exception Catch it and print "Entered input is not a valid format for an integer." or else print the square of that number. (Refer Sample Input and Output).
+
+
+
+Sample input and output 1:
+
+Enter an integer: 12
+
+The square value is 144
+
+The work has been done successfully
+
+Sample input and output 2:
+
+Enter an integer: Java
+
+Entered input is not a valid format for an integer.
+
+
+
+
+
+
+
+2) Write a program that takes as input the size of the array and the elements in the array. The program then asks the user to enter a particular index and prints the element at that index.
+
+This program may generate Array Index Out Of Bounds Exception. Use exception handling mechanisms to handle this exception. In the catch block, print the class name of the exception thrown.
+
+Sample Input and Output 1:
+
+Enter the number of elements in the array
+
+3 
+
+Enter the elements in the array
+
+20
+
+90
+
+4
+
+Enter the index of the array element you want to access
+
+2
+
+The array element at index 2 = 4
+
+The array element successfully accessed
+
+Sample Input and Output 2:
+
+Enter the number of elements in the array
+
+3
+
+Enter the elements in the array
+
+20
+
+90
+
+4
+
+Enter the index of the array element you want to access
+
+6
+
+java.lang.ArrayIndexOutOfBoundsException
+
+
+
+
+
+3)
+
+Write a program that takes as input the size of the array and the elements in the array. The program then asks the user to enter a particular index and prints the element at that index. Index starts from zero.
+
+This program may generate Array Index Out Of Bounds Exception or NumberFormatException . Use exception handling mechanisms to handle this exception.
+
+Sample Input and Output 1:
+
+Enter the number of elements in the array
+
+2
+
+Enter the elements in the array
+
+50
+
+80
+
+Enter the index of the array element you want to access
+
+1
+
+The array element at index 1 = 80
+
+The array element successfully accessed
+
+ Sample Input and Output 2:
+
+Enter the number of elements in the array
+
+2
+
+Enter the elements in the array
+
+50
+
+80
+
+Enter the index of the array element you want to access
+
+9
+
+java.lang.ArrayIndexOutOfBoundsException
+
+ Sample Input and Output 3:
+
+Enter the number of elements in the array
+
+2
+
+Enter the elements in the array
+
+30
+
+j
+
+java.lang.NumberFormatException
+
+
+
+	
+
+4) Write a class MathOperation which accepts 5 integers through command line. Create an array using these parameters. Loop through the array and obtain the sum and average of all the elements and display the result.
+
+Various exceptions that may arise like ArithmeticException, NumberFormatException, and so on should be handled.
+
+
+
+5) Write a Program with a division method which receives two integer numbers and performs the division operation.
+
+
+
+The method should declare that it throws ArithmeticException. This exception should be handled in the main method.
+
+6) Write a Program to take care of Number Format Exception if user enters values other than integer for calculating average marks of 2 students. The name of the students and marks in 3 subjects are taken from the user while executing the program.
+
+In the same Program write your own Exception classes to take care of Negative values and values out of range (i.e. other than in the range of 0-100)
+
+7) A student portal provides user to register their profile. During registration the system needs to validate the user should be located in India. If not the system should throw an exception.
+
+Step 1: Create a user defined exception class named “InvalidCountryException”.
+
+Step 2: Overload the respective constructors.
+
+Step 3: Create a main class “UserRegistration”, add the following method,
+
+void registerUser(String username,String userCountry) with the below implementation
+
+• if userCountry is not equal to “India” throw a InvalidCountryException with the message “User Outside India cannot be registered”
+
+• if userCountry is equal to “India”, print the message “User registration done successfully”
+
+Invoke the method registerUser from the main method with the data specified and see how the program behaves.
+
+Example1)
+
+i/p:Mickey,US
+
+o/p:InvalidCountryException should be thrown.
+
+The message should be “User Outside India cannot be registered”
+
+Example2)
+
+i/p:Mini,India
+
+o/p:User registration done successfully
+
+8)
+
+Write a program to accept name and age of a person from the command prompt(passed as arguments when you execute the class) and ensure that the age entered is >=18 and < 60.
+
+Display proper error messages.
+
+The program must exit gracefully after displaying the error message in case the arguments passed are not proper.
+
+ (Hint : Create a user defined exception class for handling errors.)
+********************************************************************************************************************************************
+_____________________________________________________________________________________________________________________________________________
+****************************************************************Date 20 - 7 - 22********************************************8
+_____________________________________________________________________________________________________________________________________________
+
+___________________________________________________
+ArrayList Handon
+____________________________________________
+
+1)Write a Java program to create an ArrayList, add all the months of a year and print the same.
+
+2) Create an ArrayList that can store only Strings.
+
+Create a printAll method that will print all the elements of the ArrayList using an Iterator.
+
+
+3)Create an ArrayList that can store only numbers like int,float,double,etc, but not any other data type.
+
+4) Implement the assignment 1 using Linked List
+
+5) Implement the assignment 1 using Vector
+
+6) Write a program that will have a Vector which is capable of storing Employee objects. Use an Iterator and enumeration to list all the elements of the Vector.
+
+
+
+,_______________________________________________
+SET
+_____________________________________________________
+
+1)Develop a java class with a instance variable H1 (HashSet) add a method saveCountryNames(String CountryName) ,
+
+the method should add the passed country to a HashSet (H1) and return the added HashSet(H1).
+
+Develop a method getCountry(String CountryName) which iterates through the HashSet and
+
+returns the country if exist else return null.
+
+NOTE: You can test the methods using a main method.
+
+ 2)Write a program to store a group of employee names into a HashSet, retrieve the elements one by one using an Iterator.
+
+3) Create a Collection called TreeSet which is capable of storing String objects. Then try these following operations :
+
+a) Reverse the elements of the Collection.
+
+b) Iterate the elements of the TreeSet using Iterator.
+
+c) Check if a particular element exists or not.
+
+4)Implement the assignment 1 using TreeSet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
